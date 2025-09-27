@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="main-container">
+        <h1>Simple Weather App</h1>
+        
+        <div id="search-box">
+            <input id="city-input" type="text" placeholder="Enter City Name..." >
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="weather-display">
+            <h2 id="city"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img src="" alt="Weather-Icon" id="weather-icon">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
