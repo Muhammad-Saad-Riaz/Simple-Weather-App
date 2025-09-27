@@ -62,3 +62,7 @@ h2{
     font-size: 20px;
     font-style: italic;
 }
+.message {
+    margin-top: 20px;
+    color: #f10a0a;
+}
